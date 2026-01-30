@@ -1,0 +1,16 @@
+
+body {
+  margin: 0;
+  background: #fbf7ef;
+  color: #111;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.page { max-width: 1200px; margin: 0 auto; padding: 40px 24px; }
+.header { border-bottom: 1px solid rgba(0,0,0,.15); padding-bottom: 20px; margin-bottom: 40px; }
+.logo { font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.grid { display: grid; grid-template-columns: 300px 1fr 300px; gap: 32px; }
+.kicker { font-family: monospace; font-size: 11px; opacity: .6; }
+.body { font-size: 14px; line-height: 1.6; }
+.mono { font-family: monospace; font-size: 12px; opacity: .7; }
+.image { width: 100%; height: auto; border: 1px solid rgba(0,0,0,.15); padding: 12px; background: white; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
